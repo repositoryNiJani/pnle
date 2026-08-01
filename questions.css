@@ -374,7 +374,7 @@ button:disabled {
     border: none;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 8px 25px rgba(31, 91, 135, 0.3);
+    box-shadow: 0 8px 25px rgba(135, 31, 104, 0.3);
     margin: 0.3rem;
 }
 
