@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(135deg, #0b2b44 0%, #1a4c7a 50%, #2d6a9e 100%);
+    background: linear-gradient(135deg, #440b3f 0%, #7a1a75 50%, #9e2d8f 100%);
     font-family: 'Segoe UI', Roboto, system-ui, sans-serif;
     min-height: 100vh;
     display: flex;
@@ -69,7 +69,7 @@ body {
 
 .hero-subtitle {
     font-size: 1.2rem;
-    color: #3a6a8e;
+    color: #9e2d8f;
     font-weight: 400;
     margin-bottom: 1.5rem;
     letter-spacing: 1px;
@@ -78,7 +78,7 @@ body {
 .hero-divider {
     width: 80px;
     height: 4px;
-    background: linear-gradient(90deg, #1f5b87, #5ba3d9);
+    background: linear-gradient(90deg, #9e2d8f, #b84aa8);
     margin: 0 auto 1.8rem;
     border-radius: 4px;
 }
@@ -94,7 +94,7 @@ body {
 }
 
 .hero-description strong {
-    color: #1f5b87;
+    color: #9e2d8f;
 }
 
 .hero-stats {
@@ -111,13 +111,13 @@ body {
     border-radius: 40px;
     font-size: 0.95rem;
     font-weight: 500;
-    color: #0f3b5a;
+    color: #9e2d8f;
     border: 1px solid #dce8f2;
 }
 
 .start-btn {
     display: inline-block;
-    background: linear-gradient(135deg, #1f5b87, #2d7ab3);
+    background: linear-gradient(135deg, #9e2d8f, #b84aa8);
     color: white;
     font-size: 1.3rem;
     font-weight: 600;
@@ -125,7 +125,7 @@ body {
     border-radius: 60px;
     text-decoration: none;
     transition: all 0.3s ease;
-    box-shadow: 0 8px 25px rgba(31, 91, 135, 0.35);
+    box-shadow: 0 8px 25px rgba(135, 31, 104, 0.5);
     border: none;
     cursor: pointer;
     letter-spacing: 0.5px;
@@ -133,8 +133,8 @@ body {
 
 .start-btn:hover {
     transform: translateY(-3px) scale(1.02);
-    box-shadow: 0 12px 35px rgba(31, 91, 135, 0.5);
-    background: linear-gradient(135deg, #134a73, #1f6ba0);
+    box-shadow: 0 12px 35px rgba(135, 31, 104, 0.5);
+    background: linear-gradient(135deg, #9e2d8f, #b84aa8);
 }
 
 .start-btn:active {

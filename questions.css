@@ -178,7 +178,7 @@ button {
     padding: 0.6rem 1.6rem;
     font-weight: 600;
     font-size: 0.95rem;
-    color: #1a4a6e;
+    color: #9e2d8f;
     cursor: pointer;
     transition: 0.15s;
     display: inline-flex;
@@ -188,15 +188,15 @@ button {
 }
 
 button.primary {
-    background: #1f5b87;
-    border-color: #1f5b87;
+    background: #9e2d8f;
+    border-color: #9e2d8f;
     color: white;
 }
 
 button.primary:hover:not(:disabled) {
-    background: #134a73;
-    border-color: #134a73;
-    box-shadow: 0 4px 8px rgba(24, 80, 130, 0.2);
+    background: #9e2d8f;
+    border-color: #9e2d8f;
+    box-shadow: 0 4px 8px rgba(135, 31, 104, 0.2);
 }
 
 button.secondary {
@@ -245,7 +245,7 @@ button:disabled {
     border-radius: 40px;
     padding: 0.3rem 1.2rem;
     font-weight: 500;
-    color: #0f3f60;
+    color: #9e2d8f;
 }
 
 .footer-note {
@@ -319,12 +319,12 @@ button:disabled {
 
 .modal-content h2 {
     font-size: 2rem;
-    color: #0b2b44;
+    color: #9e2d8f;
     margin-bottom: 0.3rem;
 }
 
 .modal-content p {
-    color: #3a6a8e;
+    color: #9e2d8f;
     font-size: 1rem;
     margin-bottom: 1.5rem;
 }
@@ -364,7 +364,7 @@ button:disabled {
 
 .modal-btn {
     display: inline-block;
-    background: linear-gradient(135deg, #1f5b87, #2d7ab3);
+    background: linear-gradient(135deg, #9e2d8f, #b84aa8);
     color: white;
     font-size: 1.05rem;
     font-weight: 600;
