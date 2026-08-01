@@ -32,6 +32,13 @@ body {
     }
 }
 
+.verse{
+    font-size: 0.9rem;
+    color: #1a334a;
+    /* margin-top: 1rem; */
+    text-align: center;
+}
+
 .category-logo{
     width: 100%;
     height: 100%;

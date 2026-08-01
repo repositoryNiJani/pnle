@@ -430,4 +430,8 @@ button:disabled {
     .modal-score-number {
         font-size: 2.5rem;
     }
+    /* hide is smaller screen */
+.extra {
+    display: none;
+}
 }
