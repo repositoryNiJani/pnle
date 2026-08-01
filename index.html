@@ -5,32 +5,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PNLE · Quiz</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="css/index.css" />
 </head>
 <body>
     <div class="hero-container">
         <div class="hero-content">
             <div class="hero-icon"></div>
             <h1>PNLE · Quiz</h1>
-            <p class="hero-subtitle">Maternal & Child Health Nursing</p>
+            <p class="hero-subtitle">Nursing Practice Questionaire</p>
             <div class="hero-divider"></div>
             <p class="hero-description">
-                Test your knowledge with <strong>95 questions</strong> covering
-                preschooler development, cleft lip/palate, pediatric medications,
-                newborn assessment, spina bifida, child abuse, baby blues,
-                infant development, Erikson's theory, otitis media,
-                discharge instructions, developmental stages, seizure disorders,
-                hemophilia, diabetes, communication, preterm newborns,
-                and rheumatic fever.
+                Test your knowledge with <strong>different questions</strong> covering
+                different nursing topics. Each quiz is self-paced and provides
+                instant feedback to help you learn and improve your skills. <strong>GOODLUCK FUTURE NURSES!</strong>
             </p>
+            <!-- <p><strong>GOOD LUCK FUTURE NURSES!</strong></p> -->
             <div class="hero-stats">
-                <span>95 Questions</span>
+                <!-- <span>Questions</span>
                 <span>Self-paced</span>
-                <span>Instant Feedback</span>
+                <span>Instant Feedback</span> -->
             </div>
-            <a href="questions.html" class="start-btn">Start Quiz →</a>
+            <button type="button" class="start-btn" id="startBtn">Start Quiz →</button>
             <p class="hero-footer">PNLE Review · 2026</p>
         </div>
+
+        <div class="modal-overlay" id="modalOverlay" aria-hidden="true">
+            <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="categoryModalTitle">
+                <button type="button" class="modal-close" id="closeModalBtn" aria-label="Close category picker">×</button>
+                <div class="modal-icon">
+                    <img class="category-logo" src="images/ok.jpg" alt="Selected">
+                </div>
+                <h2 id="categoryModalTitle">Choose a Category</h2>
+                <p>Select a category to start the quiz:</p>
+                <div class="category-buttons" id="categoryButtons"></div>
+                <a href="index.html" class="modal-btn secondary">Back to Home</a>
+            </div>
+        </div>
     </div>
+
+    <script src="js/index.js"></script>
 </body>
 </html>

@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PNLE · Pediatric Nursing Quiz</title>
-    <link rel="stylesheet" href="questions.css" />
+    <title>PNLE · Maternal & Child Health Nursing Quiz</title>
+    <link rel="stylesheet" href="questions.css"> 
+    <link rel="stylesheet" href="../css/questions.css">
 </head>
 <body>
     <div class="quiz-container" id="app">
         <h1>
-            <span>PNLE · Pedia</span>
+            <span>PNLE · Maternal & Child Health Nursing</span>
             <small><span class="progress-badge" id="progressDisplay">1 / 95</span></small>
         </h1>
 
@@ -52,10 +53,11 @@
             <div class="modal-percentage" id="modalPercentage">0%</div>
             <div class="modal-message" id="modalMessage">Great job!</div>
             <button class="modal-btn" id="resetFromModalBtn">Retake Quiz</button>
-            <a href="index.html" class="modal-btn secondary">Back to Home</a>
+            <a href="../index.html" class="modal-btn secondary">Back to Home</a>
         </div>
     </div>
 
-    <script src="questions.js"></script>
+    <script src="../json/maternalQuestions.js"></script>
+    <script src="../js/maternal.js"></script>
 </body>
 </html>

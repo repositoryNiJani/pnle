@@ -32,6 +32,13 @@ body {
     }
 }
 
+.category-logo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* border-radius: 50%; */
+}
+
 .hero-content {
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
@@ -146,6 +153,98 @@ body {
     color: #5a7d9b;
     font-size: 0.85rem;
     letter-spacing: 0.5px;
+}
+
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(8, 15, 30, 0.78);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease;
+    z-index: 1000;
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal-content {
+    background: white;
+    border-radius: 1.5rem;
+    padding: 2rem 1.75rem 1.5rem;
+    width: min(100%, 420px);
+    text-align: center;
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.modal-close {
+    position: absolute;
+    top: 0.85rem;
+    right: 0.85rem;
+    border: none;
+    background: transparent;
+    font-size: 1.5rem;
+    color: #8b4c85;
+    cursor: pointer;
+}
+
+.modal-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #9e2d8f, #b84aa8);
+    margin: 0 auto 1rem;
+}
+
+.modal-content h2 {
+    color: #0b2b44;
+    margin-bottom: 0.5rem;
+}
+
+.modal-content p {
+    color: #5a7d9b;
+    margin-bottom: 1.25rem;
+}
+
+.category-buttons {
+    display: grid;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.modal-btn {
+    display: block;
+    text-decoration: none;
+    padding: 0.9rem 1rem;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #9e2d8f, #b84aa8);
+    color: white;
+    font-weight: 600;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 8px 18px rgba(135, 31, 104, 0.25);
+}
+
+.modal-btn:hover {
+    transform: translateY(-2px);
+}
+
+.modal-btn.secondary {
+    background: #f4ecf6;
+    color: #8b4c85;
+    box-shadow: none;
+    margin-top: 0.35rem;
+}
+
+.modal-empty-state {
+    color: #5a7d9b;
+    font-size: 0.95rem;
 }
 
 @media (max-width: 600px) {

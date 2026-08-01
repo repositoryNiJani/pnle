@@ -1,0 +1,63 @@
+<!-- questions.html - Quiz Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PNLE · Pediatric Nursing Quiz</title>
+    <link rel="stylesheet" href="questions.css"> 
+    <link rel="stylesheet" href="../css/questions.css">
+</head>
+<body>
+    <div class="quiz-container" id="app">
+        <h1>
+            <span>PNLE · Pedia</span>
+            <small><span class="progress-badge" id="progressDisplay">1 / 95</span></small>
+        </h1>
+
+        <div class="question-panel" id="questionPanel">
+            <div class="q-header">
+                <span class="q-number" id="qNumber">Q1</span>
+                <span class="q-category" id="qCategory">Preschooler</span>
+            </div>
+            <div class="q-text" id="qText">Loading question...</div>
+            <div class="options-grid" id="optionsContainer"></div>
+            <div class="feedback-area" id="feedbackArea">
+                <span>Select an option to check</span>
+            </div>
+        </div>
+
+        <div class="action-bar">
+            <div class="nav-buttons">
+                <button class="primary" id="nextBtn">Next ▶</button>
+            </div>
+        </div>
+
+        <div class="result-stats">
+            <span class="stat-badge" id="scoreDisplay">0 correct</span>
+            <span class="stat-badge" id="answeredDisplay">0 answered</span>
+        </div>
+        <div class="footer-note">PNLE Maternal & Child Health Nursing · 95 items</div>
+    </div>
+
+    <!-- Congratulations Modal -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-content">
+            <div class="modal-icon"></div>
+            <h2>Congratulations!</h2>
+            <p>You have completed the quiz!</p>
+            <div class="modal-score">
+                <span class="modal-score-number" id="modalScore">0</span>
+                <span class="modal-score-label">out of 95 correct</span>
+            </div>
+            <div class="modal-percentage" id="modalPercentage">0%</div>
+            <div class="modal-message" id="modalMessage">Great job!</div>
+            <button class="modal-btn" id="resetFromModalBtn">Retake Quiz</button>
+            <a href="../index.html" class="modal-btn secondary">Back to Home</a>
+        </div>
+    </div>
+
+    <script src="../json/pediaQuestions.js"></script>
+    <script src="../js/pedia.js"></script>
+</body>
+</html>
