@@ -28,7 +28,7 @@ body {
 h1 {
     font-size: 1.9rem;
     font-weight: 600;
-    color: #0b2b44;
+    color: #9e2d8f;
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -40,13 +40,13 @@ h1 {
 h1 small {
     font-size: 1rem;
     font-weight: 400;
-    color: #3a6a8e;
+    color: #9e2d8f;
     margin-left: auto;
 }
 
 .progress-badge {
-    background: #dbeafe;
-    color: #1a4c7a;
+    background: #fedbfc;
+    color: #9e2d8f;
     padding: 0.25rem 1rem;
     border-radius: 40px;
     font-size: 0.95rem;
@@ -71,8 +71,8 @@ h1 small {
 }
 
 .q-number {
-    background: #d4e2f0;
-    color: #0f3b5a;
+    background: #fedbfc;
+    color: #9e2d8f;
     font-weight: 600;
     padding: 0.2rem 1rem;
     border-radius: 40px;
@@ -81,8 +81,8 @@ h1 small {
 }
 
 .q-category {
-    background: #e6f0fa;
-    color: #20507a;
+    background: #fedbfc;
+    color: #9e2d8f;
     padding: 0.2rem 1rem;
     border-radius: 30px;
     font-size: 0.8rem;
@@ -120,14 +120,14 @@ h1 small {
 }
 
 .option-item:hover:not(.disabled-opt) {
-    background: #f0f7fe;
-    border-color: #8bb5d9;
+    background: #fedbfc;
+    border-color: #d98bcf;
 }
 
 .option-item.selected {
-    background: #dbeafe;
-    border-color: #3275b0;
-    box-shadow: 0 0 0 2px rgba(50, 117, 176, 0.2);
+    background: #fedbfc;
+    border-color: #9e2d8f;
+    box-shadow: 0 0 0 2px rgba(176, 50, 165, 0.2);
 }
 
 .option-item.correct-reveal {
@@ -147,7 +147,7 @@ h1 small {
 
 .option-label {
     font-weight: 600;
-    color: #1e4b6e;
+    color: #9e2d8f;
     min-width: 28px;
     font-size: 1rem;
 }
@@ -220,7 +220,7 @@ button:disabled {
     border-radius: 40px;
     background: #eef4fa;
     font-size: 0.95rem;
-    color: #15415f;
+    color: #9e2d8f;
     min-height: 2.8rem;
     display: flex;
     align-items: center;
@@ -241,7 +241,7 @@ button:disabled {
 }
 
 .stat-badge {
-    background: #e4eef9;
+    background: #fedbfc;
     border-radius: 40px;
     padding: 0.3rem 1.2rem;
     font-weight: 500;
@@ -391,7 +391,7 @@ button:disabled {
 }
 
 .modal-btn.secondary:hover {
-    background: #d6e4f0;
+    background: #fedbfc;
     transform: translateY(-2px);
 }
 
